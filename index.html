@@ -2,5 +2,5 @@
 layout: default
 title: "About"
 ---
-{% capture my_include %}{% include README.md %}{% endcapture %}
+{% capture my_include %}{% include_relative content/about.md %}{% endcapture %}
 {{ my_include | markdownify }}
