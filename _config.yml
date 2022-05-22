@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {url: "/about/", title: "About"}
+  - {url: "/", title: "About"}
   - {url: "/downloads", title: "Downloads"}  
   - {url: "/credits/", title: "Credits"}
   - {url: "/contact/", title: "Contact"}
